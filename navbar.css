@@ -1,0 +1,29 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    background-color: transparent;
+    z-index: 9999;
+  }
+
+  .hamburger {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 15px;
+    margin-bottom: 4px;
+  }
+
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }

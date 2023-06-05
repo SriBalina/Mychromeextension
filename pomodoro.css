@@ -1,0 +1,75 @@
+#container{
+    text-align:center;
+    font-style: italic;
+    
+  }
+  
+#work:hover {
+    background-color: #169c1b; /* Green */
+    color: aliceblue;
+}
+
+#shortBreak:hover,#longBreak:hover{
+	background-color: #e1562f;; /* Red */
+    color: aliceblue;
+}
+
+#stop:hover{
+	background-color: #e53528;; /* Red */
+    color: aliceblue;
+}
+  #timer{ 
+    color:black; 
+    font-size:20px; 
+    margin:10px auto;
+    border : 5px dashed #e1392f;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+  }
+  
+  #time{
+    margin-top:40px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #filler{
+    background :#e1392f;
+    height: 0px;
+    width: 100px;
+    position:absolute;
+    bottom:0;
+  }
+  
+  #buttons button {  
+    border:none; 
+    font-family:cursive ;
+    font-style: italic; 
+    cursor:pointer; 
+    padding:5px; 
+    width:100px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 40px;
+    border-radius : 10px;
+  }
+
+  body {
+    font-style: italic;
+    font-family:cursive ;
+    text-align: center;
+    min-width:400px;
+	min-height:200px;
+	background:url("b1.png");
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
