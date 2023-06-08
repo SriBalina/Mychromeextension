@@ -2,6 +2,7 @@
 
 ## Overview
 This is a Chrome extension that utilizes an API to provide users with a todo list combo and pomodoro timer.
+Not only that it helps you motivate and makes you laugh with the help of quotes and jokes.
 
 ## Features
 - Fetches data from the API and displays it in the extension's popup.
